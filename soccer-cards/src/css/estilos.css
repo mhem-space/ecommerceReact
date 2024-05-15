@@ -1,0 +1,51 @@
+.principal {
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+}
+
+.fa-shopping-cart{
+    align-self: center;
+    color: #B197FC;
+}
+
+.imagenCarta{
+    align-self: center;
+    position: relative;
+}
+
+.imagenCarta :not(:hover){
+    transition: all 0.4s ease-in-out;
+}
+
+.imagenCarta :hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(2.5);
+    border: 2px solid #000;
+    border-radius: 10px;
+    z-index: 3;
+    position: relative;
+}
+
+.accordion-body{
+    font-size: 90%;
+}
+
+body{
+    font-family: math;
+}
+
+#producto{
+    padding-top: 5px;
+}
+
+
+#productoCarrito{
+    padding-top: 5px;
+    scale: 0.9;
+}
+
+.imagenProductoAgotado{
+    filter: grayscale(100%);
+}
